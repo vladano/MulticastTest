@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuracion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFiles>
+    <string>.\Screenshots-How to use.docx</string>
+  </SourceFiles>
+  <Compilar>true</Compilar>
+  <DirectorioDestino>.\MulticastTest-project</DirectorioDestino>
+  <HtmlCabecera />
+  <HtmlPie />
+  <TituloAyuda>Test Multicast IP network traffic</TituloAyuda>
+  <NivelCorte>9</NivelCorte>
+  <GenerarWeb>true</GenerarWeb>
+  <ArchivosAdicionales />
+  <AbrirProyecto>true</AbrirProyecto>
+  <DirectorioWeb>.\MulticactTest-web</DirectorioWeb>
+  <NivelArbolContenidos>9</NivelArbolContenidos>
+  <NivelTemasIndice>9</NivelTemasIndice>
+  <ArchivoAyuda>.\MulticastTest.chm</ArchivoAyuda>
+  <CommandLine />
+  <GeneratePdf>true</GeneratePdf>
+  <PdfPath>.\MulticactTest.pdf</PdfPath>
+  <WebKeywords />
+  <WebDescription />
+  <WebHeaderFile />
+  <WebFooterFile />
+  <GenerateSitemap>false</GenerateSitemap>
+  <WebBase>http://</WebBase>
+  <ChangeFrequency>monthly</ChangeFrequency>
+  <WebLanguage>English</WebLanguage>
+  <ConfigurationVersion>1.7</ConfigurationVersion>
+  <FullTextSearch>false</FullTextSearch>
+  <PdfGeneration>OfficeAddin</PdfGeneration>
+  <GenerateXps>true</GenerateXps>
+  <XpsPath>.\MulticactTest.xps</XpsPath>
+  <GenerateJavaHelp>false</GenerateJavaHelp>
+  <JavaHelpPath>.\MulticactTest.jar</JavaHelpPath>
+  <HeadTagFile />
+  <ChmLocaleID>1033</ChmLocaleID>
+  <WebTemplateName>jQuery</WebTemplateName>
+  <CustomTemplateDirectory />
+</Configuracion>

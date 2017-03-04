@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta name="generator" content=
+"HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
+<meta content="text/html; charset=utf-8" http-equiv="content-type">
+<meta name="Generator" content="Microsoft Word 14 (filtered)">
+<link rel="stylesheet" type="text/css" href="embeddedstyles.css">
+<title>Send data (generate multicast IP traffic)</title>
+<meta name="generator" content="chmProcessor">
+</head>
+<body lang="SR-LATN-RS">
+<div class="WordSection1">
+<h2 style='line-height:normal'><a name="node2" id=
+"node2"></a><span lang="EN-US">Send data (generate multicast IP
+traffic)</span></h2>
+<p class="MsoNormal" style='line-height:normal'><span lang="EN-US"
+style='font-family:"Arial","sans-serif"'>Open command prompt and
+change current directory to directory where you copied these
+executable files.</span></p>
+<p class="MsoNormal" style='line-height:normal'><span lang="EN-US"
+style='font-family:"Arial","sans-serif"'>At the command prompt
+type:</span></p>
+<p class="MsoNormal" style='line-height:normal'><span lang="EN-US"
+style='font-family:"Arial","sans-serif"'>MulticastSend.exe
+–h</span></p>
+<p class="MsoNormal" style='line-height:normal'><span lang="EN-US"
+style='font-family:"Arial","sans-serif"'>and press
+&lt;Return&gt;</span></p>
+<p class="MsoNormal" style='line-height:normal'><img width="628"
+height="280" id="Picture 6" src=
+"Screenshots-How%20to%20use_files/image004.jpg" alt="image" name=
+"Picture 6"></p>
+<p class="MsoNormal" style='line-height:normal'><span lang="EN-US"
+style='font-family:"Arial","sans-serif"'>You will get output of
+help screen usage.</span></p>
+<p class="MsoNormal" style='line-height:normal'><span lang="EN-US"
+style='font-family:"Arial","sans-serif"'>As you see, from the help
+screen, if you start program without any parameters, program will
+be start to send multicast IP packet to IP address 238.0.0.1, port
+5050, with maximum Hop Limit of 5, 5 packet with size of 30
+characters each.</span></p>
+<p class="MsoNormal" style='line-height:normal'><span lang="EN-US"
+style='font-family:"Arial","sans-serif"'>For example if you wish to
+start program to send multicast IP traffic to IP address 224.0.0.1,
+port 5000, with 3 hop limit, 10 packet with size of 128 characters,
+you will use the following syntax:</span></p>
+<p class="MsoNormal" style='line-height:normal'><span lang="EN-US"
+style='font-family:"Arial","sans-serif"'>MulticastSend.exe -a
+224.0.0.1 -p 5000 –t 3 –n 10 –s 128</span></p>
+<p class="MsoNormal" style='line-height:normal'><img width="627"
+height="442" id="Picture 7" src=
+"Screenshots-How%20to%20use_files/image005.jpg" alt="image" name=
+"Picture 7"></p>
+<p class="MsoNormal" style='line-height:normal'><span lang="EN-US"
+style='font-family:"Arial","sans-serif"'>After execution program
+will exit to command prompt.</span></p>
+</div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+To generate haelp file in diffrent file format I used free softver chmprocessor from location http://chmprocessor.sourceforge.net/
+"chmProcessor is a tool for creating HTML help (CHM files) from MS Word or HTML files."
+
+You need to download and install that software to your computer.
+After that, you need to write yout help as MS Word dokument. That document will be use as source for chmProcessor tool to generate dokumentation of diffrent file types.

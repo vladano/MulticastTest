@@ -32,7 +32,7 @@ If, for example, you want to start listening for incoming multicast traffic on a
 MulticastReceive.exe 224.0.01 -a -p 5000
 
 Another program required for testing, need to be start on the computer that will generate and send the network multicast traffic (MulticastSend.exe).
-If you start the program without any parameters, program will send multicast ip traffic to the ip address 238.0.0.1, port 5050, with default value of 3 for the limitation of the jump (TTL - eng. Time To Live or Hop Limit), 5 data packets with a length of 30 characters per package.
+If you start the program without any parameters, program will send multicast IP traffic to the IP address 238.0.0.1, port 5050, with default value of 3 for the limitation of the jump (TTL - eng. Time To Live or Hop Limit), and 5 data packets with a length of 30 characters per package.
 Possible parameters and values that can be used when you start the program, you can see if you start program with -h parameter:
 
 MulticastSend.exe -h
@@ -55,3 +55,8 @@ Copyright c 2017
   
 If, for example, you want to start sending the multicast IP traffic to IP address 224.0.1, port 5000, with TTL 5, 10 packages with packet size of 1KB (1,024 characters), it is necessary to start the program as follows:
 MulticastReceive.exe 224.0.01 -a -p 5000 -t 10 -s 5 -n 1024
+
+Complete help with screenshots you can find inside "doc" folder in different file formats.
+I used chmProcessor tool from location http://chmprocessor.sourceforge.net/ to generate different file formats from MS Word document.
+
+To generate this type of help documentations you need to download software and make chmProcessor project file (file with .WHC extension inside "doc" folder).
