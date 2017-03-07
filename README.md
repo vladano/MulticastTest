@@ -10,7 +10,7 @@ No host can have this as IP address, but every machine can join a multicast addr
 
 Wikipedia https://en.wikipedia.org/wiki/Multicast
 
-##How to use
+## How to use
 
 The program consists of two executable (.exe) programs.
 One executable program need to be started on computer where we will test acceptance of multicast IP packets that are sent from the network (MulticastReceive.exe) and the other executable program need to be started to generate multicast IP traffic (MulticastSend.exe).
